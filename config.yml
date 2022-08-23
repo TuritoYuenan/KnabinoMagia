@@ -1,0 +1,15 @@
+baseURL: https://turitoyuenan.github.io/knabino-magia/
+languageCode: en-us
+
+title: Knabino Magia
+params:
+  author: Turito Yuenan
+
+menu:
+  main:
+    - name: Magical Girls
+      url: /magical-girls/
+      weight: 1
+    - name: Countries
+      url: /countries/
+      weight: 2

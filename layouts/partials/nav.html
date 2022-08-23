@@ -1,0 +1,11 @@
+<nav class="topnav">
+	<strong style="font-variant: small-caps;">
+		<a href="/">{{ .Site.Title }}</a>
+	</strong>
+	{{ $currentPage := . }}
+	<section class="menus">
+		{{ range .Site.Menus.main }}
+			<a href="{{ .URL }}">{{ .Name }}</a>
+		{{ end }}
+	</section>
+</nav>
