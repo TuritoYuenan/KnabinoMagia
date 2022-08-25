@@ -1,5 +1,9 @@
 {{ define "main" }}
+<header>
+	<h1>{{.Page.Title}}</h1>
+</header>
 <article>
 	{{ .Content }}
 </article>
+<script src="{{.Site.BaseURL}}js/toc.js"></script>
 {{ end }}

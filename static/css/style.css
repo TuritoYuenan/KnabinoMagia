@@ -1,20 +1,60 @@
 :root {
-	--background: #478;
-	--text-color: white;
-	--topnav-clr: #111;
+	background: url(/knabino-magia/wallpaper.jpg) fixed center no-repeat;
+	background-size: cover;
+	font: normal x-large system-ui, sans-serif;
+	color: white;
 }
 
 body {
-	margin: 0; background: var(--background); color: var(--text-color);
-	font: normal x-large 'Trebuchet MS', system-ui, sans-serif;
+	margin: 0;
+	min-height: 100vh;
+	background: #1118;
 }
 
-main {padding: 1rem; box-sizing: border-box;}
+header, article, #TableOfContents {
+	padding: 1rem
+}
 
-h1, h2, h3, h4, h5, h6, p {margin-top: 0; margin-bottom: 1rem;}
-h1 {text-align: center; font-variant: small-caps}
-a {text-decoration: none; color: inherit}
+header {
+	text-align: center;
+}
 
-.topnav {padding: 1rem; background: var(--topnav-clr); font-variant: small-caps;}
-.topnav .menus {float: right;}
-.topnav .menus * {margin: auto .5rem; font-size: large;}
+header h1 {
+	font-variant: small-caps;
+}
+
+article {
+	width: 960px;
+	margin: auto;
+}
+
+table, pre {
+	padding: 1rem;
+	background: #2E3440;
+	border-radius: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+	margin: 0 0 .5rem 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit
+}
+
+.topnav {
+	padding: 1rem;
+	font-variant: small-caps;
+}
+
+.topnav__menus * {
+	margin: auto .5rem;
+	font-size: large;
+}
+
+@media screen and (max-width: 960px) {
+	article {
+		width: auto;
+	}
+}

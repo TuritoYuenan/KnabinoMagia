@@ -1,5 +1,10 @@
-{{ define "main" }}
-	<h1>{{ .Site.Title }}</h1>
-	<p style="text-align: center;">by {{.Site.Params.Author}}</p>
-	{{ .Content }}
-{{ end }}
+{{define "main"}}
+<header>
+	<img src="{{.Site.BaseURL}}icon.svg" alt="icon" style="height: 10em;">
+	<h1>{{.Site.Title}}</h1>
+	<p>by {{.Site.Params.Author}}</p>
+</header>
+<article>
+	{{.Content}}
+</article>
+{{end}}

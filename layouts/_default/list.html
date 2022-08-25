@@ -1,18 +1,17 @@
 {{ define "main" }}
+<header>
+	<h1>{{ replace .Name "-" " " | title }}</h1>
+</header>
 <article>
-	<header>
-		<h1>{{ replace .Name "-" " " | title }}</h1>
-	</header>
-	<!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
 	{{.Content}}
+	<section>
+		{{ range .Pages }}
+		<a href="{{.Permalink}}">
+			<h2>{{.Title}}</h2>
+			<p>{{.Date.Format "2006-01-02"}} &bull; {{.WordCount}} words</p>
+		</a>
+		<hr style="border: 1pt solid white;"/>
+		{{ end }}
+	</section>
 </article>
-<ul>
-<!-- Ranges through content/posts/*.md -->
-{{ range .Pages }}
-	<li>
-		<a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-	</li>
-{{ end }}
-</ul>
-
 {{ end }}
