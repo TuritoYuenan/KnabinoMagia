@@ -1,7 +1,7 @@
 ---
 title: Test
 date: 2022-08-23T13:11:55+07:00
-draft: true
+draft: false
 ---
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
