@@ -5,35 +5,6 @@
 	color: white;
 }
 
-body {
-	margin: 0;
-	min-height: 100vh;
-	background: #1118;
-}
-
-header, article, #TableOfContents {
-	padding: 1rem
-}
-
-header {
-	text-align: center;
-}
-
-header h1 {
-	font-variant: small-caps;
-}
-
-article {
-	width: 960px;
-	margin: auto;
-}
-
-table, pre {
-	padding: 1rem;
-	background: #2E3440;
-	border-radius: 1rem;
-}
-
 h1, h2, h3, h4, h5, h6, p, ul, ol {
 	margin: 0 0 .5rem 0;
 }
@@ -41,6 +12,39 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 a {
 	text-decoration: none;
 	color: inherit
+}
+
+body {
+	margin: 0;
+	min-height: 100vh;
+	background: #1118;
+}
+
+main {
+	margin: auto;
+	width: 960px;
+}
+
+header, article, footer {
+	padding: 1rem
+}	
+
+header {
+	text-align: center;
+}	
+
+header h1 {
+	font-variant: small-caps;
+}	
+
+footer {
+	font-size: medium;
+}
+
+table, pre {
+	padding: 1rem;
+	background: #2E3440;
+	border-radius: 1rem;
 }
 
 .topnav {
@@ -54,7 +58,7 @@ a {
 }
 
 @media screen and (max-width: 960px) {
-	article {
+	main {
 		width: auto;
 	}
 }

@@ -1,17 +1,17 @@
-{{ define "main" }}
+{{define "main"}}
 <header>
-	<h1>{{ replace .Name "-" " " | title }}</h1>
+	<h1>{{replace .Name "-" " " | title}}</h1>
+	{{.Content}}
 </header>
 <article>
-	{{.Content}}
 	<section>
-		{{ range .Pages }}
+		{{range .Pages.ByTitle}}
 		<a href="{{.Permalink}}">
 			<h2>{{.Title}}</h2>
-			<p>{{.Date.Format "2006-01-02"}} &bull; {{.WordCount}} words</p>
+			<p>{{.Description}}&nbsp;</p>
 		</a>
 		<hr style="border: 1pt solid white;"/>
-		{{ end }}
+		{{end}}
 	</section>
 </article>
-{{ end }}
+{{end}}
