@@ -1,8 +1,10 @@
 :root {
+	font: normal x-large system-ui, sans-serif;
 	background: url(/knabino-magia/wallpaper.jpg) fixed center no-repeat;
 	background-size: cover;
-	font: normal x-large system-ui, sans-serif;
 	color: white;
+
+	--black: hsl(0, 0%, 7%);
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol {
@@ -10,8 +12,11 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 }
 
 a {
-	text-decoration: none;
 	color: inherit
+}
+
+nav a {
+	text-decoration: none;
 }
 
 body {
@@ -22,20 +27,16 @@ body {
 
 main {
 	margin: auto;
-	width: 960px;
+	width: 1280px;
 }
 
 header, article, footer {
 	padding: 1rem
-}	
-
-header {
-	text-align: center;
-}	
+}
 
 header h1 {
 	font-variant: small-caps;
-}	
+}
 
 footer {
 	font-size: medium;
@@ -45,6 +46,11 @@ table, pre {
 	padding: 1rem;
 	background: #2E3440;
 	border-radius: 1rem;
+}
+
+hr {
+	margin: 0 1rem;
+	border: 2pt solid white;
 }
 
 .topnav {
@@ -57,7 +63,13 @@ table, pre {
 	font-size: large;
 }
 
-@media screen and (max-width: 960px) {
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@media screen and (max-width: 1280px) {
 	main {
 		width: auto;
 	}

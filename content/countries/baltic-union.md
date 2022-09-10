@@ -1,12 +1,13 @@
 ---
 title: Baltic Union
-description: A union of the three Baltic states
+description: A North European union of the three Baltic states
 date: 2022-09-01T20:58:54+07:00
 draft: true
 ---
-(a short introduction of the country)
+The Baltic Union is a Northcentral European country that is formed by the 3 Baltic states: Latvia, Lithuania and Estonia
 ## Etymology
-(how the country got its name, the name's meaning and how it reflect the country)
+The name simply means "Union of the Baltic states"
+- [Meaning of the name Baltic](https://en.wikipedia.org/wiki/Baltic_Sea#Etymology_and_nomenclature)
 ## History
 (how the country came to existance)
 ## Politics

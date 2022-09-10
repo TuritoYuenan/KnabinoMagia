@@ -1,15 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
-	<circle cx="64" cy="64" r="64" fill="#111"/>
-	<g transform="matrix(3 0 0 3 -228 -152)">
-		<rect x="82.5" y="52" width="30" height="40" fill="none" stroke-width=".894"/>
-		<g transform="translate(67.5,30)" fill="white">
-			<path d="m23.4 29a10 10 0 0 0-3.42 7.53 10 10 0 0 0 10 10 10 10 0 0 0 10-10 10 10 0 0 0-3.38-7.49 8 8 0 0 1 1.38 4.49 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 1.42-4.53z"/>
-			<polygon transform="matrix(.5 0 0 .5 25.5 25)" points="9 0 3 18 18 7 0 7 15 18"/>
-		</g>
-		<g transform="translate(67.5,30)" fill="none" stroke="white" stroke-width="3">
-			<line x1="30" x2="30" y1="45" y2="58"/>
-			<line x1="25" x2="35" y1="52" y2="52"/>
-		</g>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 80">
+	<g fill="#F8F8F2">
+		<path d="m23.4 29a10 10 0 0 0-3.42 7.53 10 10 0 0 0 10.0 10.0
+		10 10 0 0 0 10-10 10 10 0 0 0-3.38-7.49 08 08 0 0 1 1.38 4.49
+		08 08 0 0 1-08 08 08 08 0 0 1-8.00-8.00 08 08 0 0 1 1.42-4.53z"/>
+		<polygon points="9 0 3 18 18 7 0 7 15 18" 
+		transform="scale(.5) translate(51,50)"/>
+	</g><g stroke="#F8F8F2" stroke-width="3" fill="none">
+		<polygon points="30,10 50,40 30,70 10,40"/>
+		<line x1="30" x2="30" y1="45" y2="58"/>
+		<line x1="25" x2="35" y1="52" y2="52"/>
 	</g>
 </svg>

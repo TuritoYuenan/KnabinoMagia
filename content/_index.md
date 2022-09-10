@@ -5,4 +5,4 @@ draft: false
 ---
 **Knabino Magia** (Esperanto for 'magical girl') is a Magical girl fiction by Turito Yuenan (me) about magical girls from different nations, cultures, all around the world.
 
-The work is mainly focused on worldbuilding, rather than writing a complete fiction, which is why this website exist: To showcase the created concepts
+This website is the documentation of characters and countries in the Fiction.

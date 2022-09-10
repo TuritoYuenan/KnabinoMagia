@@ -1,5 +1,6 @@
 ---
 title: {{ replace .Name "-" " " | title }}
+description: 
 date: {{ .Date }}
 draft: true
 ---
@@ -10,5 +11,5 @@ draft: true
 
 ## Personality
 
-## Fighting style
+## Magical abilities
 

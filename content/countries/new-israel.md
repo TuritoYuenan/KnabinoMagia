@@ -4,7 +4,9 @@ description: A North Asian country resided by the Jews that replaced Israel. For
 date: 2022-09-01T11:22:39+07:00
 draft: true
 ---
-(a short introduction of the country)
+![](/knabino-magia/flags/il.svg)
+
+New Israel is a small republic in North Asia. It is the official nation of the Jews and is their current homeland
 ## Etymology
 (how the country got its name, the name's meaning and how it reflect the country)
 ## History

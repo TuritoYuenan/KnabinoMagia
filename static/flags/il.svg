@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
-	<rect width="300" height="200" fill="#fff"/>
-	<rect width="10" height="200" fill="#f00" x="30"/>
-	<rect width="10" height="200" fill="#f90" x="40"/>
-	<rect width="10" height="200" fill="#fc0" x="50"/>
-	<rect width="10" height="200" fill="#6c3" x="60"/>
-	<rect width="10" height="200" fill="#39f" x="70"/>
-	<rect width="10" height="200" fill="#00c" x="80"/>
-	<rect width="10" height="200" fill="#609" x="90"/>
-	<g stroke-width="10" display="none">
-		<polyline points="0,070 300,070" stroke="#f00"/>
-		<polyline points="0,080 300,080" stroke="#f90"/>
-		<polyline points="0,090 300,090" stroke="#fc0"/>
-		<polyline points="0,100 300,100" stroke="#6c3"/>
-		<polyline points="0,110 300,110" stroke="#39f"/>
-		<polyline points="0,120 300,120" stroke="#00c"/>
-		<polyline points="0,130 300,130" stroke="#609"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 20">
+	<rect width="30" height="20" fill="#fff"/>
+	<g display="none">
+		<polyline points="0,07 30,07" stroke="#f00"/>
+		<polyline points="0,08 30,08" stroke="#f90"/>
+		<polyline points="0,09 30,09" stroke="#fc0"/>
+		<polyline points="0,10 30,10" stroke="#6c3"/>
+		<polyline points="0,11 30,11" stroke="#39f"/>
+		<polyline points="0,12 30,12" stroke="#00c"/>
+		<polyline points="0,13 30,13" stroke="#609"/>
 	</g>
-	<path fill="#005" d="m150 129h100l-50-87zm50 29 50-87h-100z"/>
+	<rect width="1" height="20" fill="#f00" x="3"/>
+	<rect width="1" height="20" fill="#f90" x="4"/>
+	<rect width="1" height="20" fill="#fc0" x="5"/>
+	<rect width="1" height="20" fill="#6c3" x="6"/>
+	<rect width="1" height="20" fill="#39f" x="7"/>
+	<rect width="1" height="20" fill="#00c" x="8"/>
+	<rect width="1" height="20" fill="#609" x="9"/>
+	<path d="m15 13h10l-5-8.7zm5 3 5-9h-10z"/>
 </svg>
