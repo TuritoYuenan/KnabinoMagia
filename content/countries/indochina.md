@@ -3,6 +3,7 @@ title: Indochinese Union
 description: A South-East Asian union of Vietnam, Laos and Cambodia
 date: 2022-09-01T11:22:38+07:00
 draft: true
+thumbnail: flags/iu.svg
 ---
 (a short introduction of the country)
 ## Etymology

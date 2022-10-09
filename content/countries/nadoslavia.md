@@ -1,9 +1,9 @@
 ---
-title: Magical Japan
-description: A magical version of Japan
-date: 2022-09-01T11:22:37+07:00
+title: Nadoslavia
+description: A futuristic project of building a floating country replacing Yugoslavia
+date: 2022-09-11T21:58:35+07:00
 draft: true
-thumbnail: flags/jp.svg
+thumbnail: flags/yu.svg
 ---
 (a short introduction of the country)
 ## Etymology

@@ -3,9 +3,7 @@ title: Mashriq Arabia
 description: A union of the Levant Arabic states
 date: 2022-09-01T11:22:40+07:00
 draft: true
-
-params:
-  code: il
+thumbnail: flags/mq.svg
 ---
 (a short introduction of the country)
 ## Etymology

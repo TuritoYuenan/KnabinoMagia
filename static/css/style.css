@@ -12,11 +12,12 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 }
 
 a {
-	color: inherit
+	color: inherit;
+	text-decoration: none;
 }
 
-nav a {
-	text-decoration: none;
+article a {
+	text-decoration: underline;
 }
 
 body {
@@ -30,7 +31,7 @@ main {
 	width: 1280px;
 }
 
-header, article, footer {
+header, article, footer, section {
 	padding: 1rem
 }
 
@@ -49,7 +50,6 @@ table, pre {
 }
 
 hr {
-	margin: 0 1rem;
 	border: 2pt solid white;
 }
 
@@ -61,6 +61,13 @@ hr {
 .topnav__menus * {
 	margin: auto .5rem;
 	font-size: large;
+}
+
+.thumbnail {
+	max-width: 200px;
+	max-height: auto;
+	width: 100%;
+	float: right;
 }
 
 .clearfix::after {

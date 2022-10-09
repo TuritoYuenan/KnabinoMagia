@@ -3,6 +3,7 @@ title: Awteros
 description: An Oceanian country that replaces New Zealand
 date: 2022-09-01T11:22:41+07:00
 draft: true
+thumbnail: flags/nz.svg
 ---
 (a short introduction of the country)
 ## Etymology

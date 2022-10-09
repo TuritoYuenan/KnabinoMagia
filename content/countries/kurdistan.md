@@ -3,6 +3,7 @@ title: Kurdistan
 description: An independent Middle East country of the Kurds
 date: 2022-09-01T11:22:36+07:00
 draft: true
+thumbnail: flags/kd.svg
 ---
 (a short introduction of the country)
 ## Etymology

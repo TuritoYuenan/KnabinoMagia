@@ -3,6 +3,7 @@ title: New Israel
 description: A North Asian country resided by the Jews that replaced Israel. Formerly JAO
 date: 2022-09-01T11:22:39+07:00
 draft: true
+thumbnail: flags/il.svg
 ---
 ![](/knabino-magia/flags/il.svg)
 
