@@ -1,6 +1,6 @@
 ---
 title: Claire Sharon
-description: Protagonist of the fiction - A journalist Magical girl from Singapore
+description: Singaporean journalist Magical girl (Protagonist)
 date: 2022-10-22T17:35:32+07:00
 draft: true
 ---

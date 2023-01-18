@@ -1,7 +1,8 @@
 :root {
 	font: normal x-large system-ui, sans-serif;
-	background: url(/knabino-magia/wallpaper.jpg) fixed center no-repeat;
-	background-size: cover;
+	/* background: url(/knabino-magia/wallpaper.jpg) fixed center no-repeat;
+	background-size: cover; */
+	background: #2e3440;
 	color: white;
 
 	--black: hsl(0, 0%, 7%);
@@ -35,7 +36,7 @@ header, article, footer, section {
 	padding: 1rem
 }
 
-header h1 {
+h1 {
 	font-variant: small-caps;
 }
 

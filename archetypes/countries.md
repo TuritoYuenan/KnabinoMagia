@@ -4,14 +4,36 @@ description:
 date: {{ .Date }}
 draft: true
 ---
-(a short introduction of the country)
-## Etymology
-(how the country got its name, the name's meaning and how it reflect the country)
-## History
-(how the country came to existance)
-## Politics
-(the country's government structure and ideologies)
+(Overview)
+
+- Motto: 
+- National anthem: 
+- Capital city: 
+- Type/Ideology: 
+- Currency: 
+- Time zone: 
+- ISO3166 code: 
+- Demonym: 
 ## Divisions
-(the provinces/states/districts/wards of the country)
-## Demographics
-(ethnic groups percentage, population)
+(divisions)
+
+## History
+- List of
+- events
+- in the history
+- of the country
+
+## Culture
+- National language: 
+### Ethnic groups
+- List of
+- ethnic groups
+### Religions
+- List of
+- religions
+
+## Magical girls
+- List of
+- Magical girls
+- living in
+- the country

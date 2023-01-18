@@ -1,18 +1,18 @@
-name                	birthday   	country        	department 	profession
-Claire Sharon       	2000-12-02 	Singapore      	Civil      	Journalist
-Leyla               	1997-01-13 	Kurdistan      	Political  	Soldier
-Svitlana Zakhysnyk  	1995-12-03 	Ukraine        	Political  	Soldier
-Nataliya Narodaya   	1995-09-02 	Russia         	Political  	Soldier
-Sofia Konstantinos  	1994-10-09 	Greece         	Cultural   	Preserver
-Saphranu            	~700BCE    	Ancient Greece 	Political  	Goddess
-Minerva Nancy Tudor 	1997-03-07 	United Kingdom 	Political  	Wizard
-Marie Pasteur       	1997-07-21 	France         	Cultural   	Chef
-Öttorin             	1994-05-23 	Germany        	Cultural   	Librarian
-Masa Yoshiko        	1999-02-03 	Japan          	Cultural   	Miko
-Chloe Yang          	1998-07-25 	Singapore      	Civil      	Developer
-Indira Periyachi    	2000-06-01 	India          	Cultural   	Artist
-Mai Mai             	2000-10-30 	Indochina      	Political  	Soldier
-Luzvi Minda         	2000-11-04 	Philippines    	Political  	Soldier
-Xiaoyan             	2010-09-21 	Mainland China 	Political  	Soldier
-Elisheba Segel      	1999-03-12 	New Israel     	Cultural   	Preserver
-Tiffany Grey        	1996-03-21 	United States  	Civil      	Ranger
+name	birthday	country	department	profession
+Claire Sharon	2000-12-02	Singapore	Civil	Journalist
+Leyla	1997-01-13	Kurdistan	Political	Soldier
+Svitlana Zakhysnyk	1995-12-03	Ukraine	Political	Soldier
+Nataliya Narodaya	1995-09-02	Russia	Political	Soldier
+Sofia Konstantinos	1994-10-09	Greece	Cultural	Prophet
+Saphranu	~700BCE	Ancient Greece	Civil	Goddess
+Minerva Nancy Tudor	1997-03-07	United Kingdom	Political	Wizard
+Marie Pasteur	1997-07-21	France	Cultural	Chef
+Öttorin	1994-05-23	Germany	Cultural	Librarian
+Masa Yoshiko	1999-02-03	Japan	Cultural	Shrine Maiden
+Chloe Yang	1998-07-25	Singapore	Civil	Developer
+Indira Periyachi	2000-06-01	India	Cultural	Artist
+Mai Mai	2000-10-30	Indochina	Political	Soldier
+Luzvi Minda	2000-11-04	Philippines	Political	Soldier
+Xiaoyan	2010-09-21	Uhn	Political	Soldier
+Elisheba Segel	1999-03-12	New Israel	Cultural	Preserver
+Tiffany Grey	1996-03-21	United States	Civil	Ranger

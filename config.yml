@@ -13,3 +13,6 @@ menu:
     - name: Countries
       url: /countries/
       weight: 2
+    - name: Story
+      url: /story/
+      weight: 3

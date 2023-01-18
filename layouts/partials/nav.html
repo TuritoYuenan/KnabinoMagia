@@ -3,9 +3,9 @@
 		<a href="{{.Site.BaseURL}}">{{.Site.Title}}</a>
 	</strong>
 	{{$currentPage := .}}
-	<section class="topnav__menus" style="float: right;">
+	<div class="topnav__menus" style="float: right;">
 	{{range .Site.Menus.main}}
 		<a href="{{.URL}}">{{.Name}}</a>
 	{{end}}
-	</section>
+	</div>
 </nav>
