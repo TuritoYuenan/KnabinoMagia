@@ -1,10 +1,12 @@
 ---
 title: Claire Sharon
-description: Singaporean journalist Magical girl (Protagonist)
+description: (Protagonist) Singaporean journalist magical girl
 date: 2022-10-22T17:35:32+07:00
 draft: true
+thumbnail: thumbnails/thumb_0.jpg
 ---
-Claire Sharon is a Magical girl from Singapore that travels around the world to write journals about Magical girls. She is the protagonist and focus of this Fiction.
+Claire Sharon is the protagonist of this fiction. She is a magical girl from Singapore who works as a journalist.
+
 ## Biography
 
 ## Appearance

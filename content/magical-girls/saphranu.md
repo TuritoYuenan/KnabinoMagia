@@ -3,6 +3,7 @@ title: Saphranu
 description: The Magical girl Goddess
 date: 2022-09-09T22:13:20+07:00
 draft: false
+thumbnail: thumbnails/thumb_0.jpg
 ---
 Saphranu (Ancient Greek: Σαφρανου) is the Goddess of all Magical girls. She lived in Ancient Greece 2600 years ago and became the first Magical girl in Earth history. By gaining immortality and divine power, Saphranu lived to the modern time and serves Magical girls as their guardian and overseer.
 

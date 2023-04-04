@@ -1,10 +1,11 @@
 ---
 title: Mai Mai
-description: Magical girl of Indochinese Vietnam
+description: Magical girl of Magical Vietnam
 date: 2022-09-11T22:01:39+07:00
 draft: true
+thumbnail: thumbnails/thumb_0.jpg
 ---
-Mai Mai is a Magical girl of Viet origin who serves on the water of the Indochinese Union as a marine guardian.
+Mai Mai is a Vietnamese magical girl.
 ## Biography
 
 ## Appearance
