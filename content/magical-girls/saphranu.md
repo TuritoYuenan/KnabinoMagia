@@ -1,5 +1,5 @@
 ---
-title: Saphranu
+title: goddess Saphranu
 description: The Magical girl Goddess
 date: 2022-09-09T22:13:20+07:00
 draft: false

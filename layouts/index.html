@@ -1,8 +1,8 @@
 {{define "main"}}
-<header id="front-banner">
-	<img src="{{.Site.BaseURL}}icon.svg" alt="icon" style="height: 10em; padding-right: .5rem;">
-	<h1>{{.Site.Title}}</h1>
-	<p>by {{.Site.Params.Author}}</p>
+<header class="home__banner">
+	<img class="home__icon" src="{{.Site.BaseURL}}icon.svg" alt="icon">
+	<h1 class="home__title">{{.Site.Title}}</h1>
+	<h4>by {{.Site.Params.Author}}</h4>
 </header>
 <article>
 	{{.Content}}

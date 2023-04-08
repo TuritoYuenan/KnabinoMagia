@@ -1,6 +1,6 @@
 ---
 title: Claire Sharon
-description: (Protagonist) Singaporean journalist magical girl
+description: Singaporean journalist magical girl
 date: 2022-10-22T17:35:32+07:00
 draft: true
 thumbnail: thumbnails/thumb_0.jpg

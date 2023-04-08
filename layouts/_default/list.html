@@ -1,20 +1,16 @@
 {{define "main"}}
-<header>
-	<h1 style="margin-bottom: 0;">{{replace .Name "-" " " | title}}</h1>
+<header class="list__header">
+	<h1>{{replace .Name "-" " " | title}}</h1>
 </header>
 <article>
 	{{.Content}}
 </article>
-<section>
+<section class="list">
 	{{range .Pages.ByTitle}}
-	<a href="{{.Permalink}}" style="display: flex; gap: 1rem;">
-		<img src="/knabino-magia/{{.Page.Params.thumbnail}}" alt="Thumbnail" class="thumbnail" />
-		<div>
-			<h2>{{.Title}}</h2>
-			<p>{{.Description}}&nbsp;</p>
-		</div>
+	<a class="list__item color_reversal" href="{{.Permalink}}">
+		<img class="list__thumb" src="/knabino-magia/{{.Page.Params.thumbnail}}" alt="Thumbnail" />
+		<h3>{{.Title}}</h3>
 	</a>
-	<hr />
 	{{end}}
 </section>
 {{end}}

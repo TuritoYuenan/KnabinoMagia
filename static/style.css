@@ -1,9 +1,8 @@
 :root {
-	--bright-pink-crayola: hsla(346, 84%, 61%, 1);
-	--sunglow: hsla(42, 100%, 70%, 1);
-	--emerald: hsla(164, 95%, 43%, 1);
-	--blue-ncs: hsla(195, 83%, 38%, 1);
-	--midnight-green: hsla(195, 83%, 16%, 1);
+	/* canva pink sky palette */
+	--canva0: #1a364e; --canva1: #162a40;
+	--canva2: #a35c6e; --canva3: #cb808b;
+	--canva4: #e9abb1;
 }
 
 /* BUILDING BLOCKS */
@@ -11,10 +10,8 @@
 body {
 	margin: 0;
 	min-height: 100vh;
-	/* background: url(/knabino-magia/wallpaper.jpg) fixed center no-repeat; */
-	/* background-size: cover; */
-	background: var(--midnight-green);
-	color: white;
+	background: var(--canva0);
+	color: var(--canva4);
 	font: normal x-large "Trebuchet MS", sans-serif;
 
 }
@@ -35,8 +32,6 @@ footer {
 blockquote {
 	margin: 1em 0;
 	padding: 1em;
-	color: black;
-	background: var(--sunglow);
 	border-radius: 1em;
 }
 
@@ -46,11 +41,22 @@ table, pre {
 }
 
 hr {
-	border: 2pt solid white;
+	border: 2pt solid var(--canva4);
 }
 
+.thumbnail {
+	height: 20em;
+}
+
+.color_reversal {
+	background: var(--canva4);
+	color: var(--canva0);
+}
+
+/* Navigation Bar */
+
 .topnav {
-	padding: 1rem;
+	padding: 1em .5em;
 	font-variant: small-caps;
 }
 
@@ -59,23 +65,63 @@ hr {
 	font-size: large;
 }
 
-.thumbnail {
-	max-width: 6em;
-	width: 100%;
-	height: auto;
-	float: right;
+/* Banner */
+
+.home__banner {
+	background: url(banner.jpg) center center;
+	background-size: cover;
+	color: var(--canva0);
+	text-align: center;
+	border-radius: 1em;
 }
 
-#front-banner {text-align: center;}
+.home__banner h1 {
+	margin: .2em; font-weight: bolder;
+}
+
+.home__icon {
+	height: 40vh;
+}
+
+/* List Page */
+
+.list {
+	text-align: center; gap: 1em; display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.list__header {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.list__item {
+	border-radius: 1em;
+}
+
+.list__thumb {
+	width: 100%;
+	height: auto;
+}
 
 /* TEXT */
 
 h1, h2, h3, h4, h5, h6, p, ul, ol {
-	margin: 0 0 .5em 0;
+	margin: .5em 0;
 }
 
-h1 {
+h1, h2, h3 {
+	border-radius: .2em;
 	font-variant: small-caps;
+}
+
+header h1:not(.home__title) {
+	width: max-content;
+	margin: 0;
+	padding: .2em .4em;
+	background: var(--canva4);
+	color: var(--canva0);
+	border-radius: .5em;
 }
 
 a {
@@ -87,8 +133,14 @@ article a {
 	text-decoration: underline;
 }
 
+::selection, blockquote {
+	background: var(--canva4);
+	color: var(--canva0);
+}
+
+/* RESPONSIVE-NESS */
+
 @media screen and (max-width: 1280px) {
-	main {
-		width: auto;
-	}
+	main {width: auto;}
+	#front-banner {border-radius: 0;}
 }

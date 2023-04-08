@@ -1,6 +1,5 @@
 {{define "main"}}
 <header style="display: flex; gap: 1rem;">
-	<img src="/knabino-magia/{{.Params.thumbnail}}" alt="Thumbnail" class="thumbnail">
 	<div>
 		<h1>{{.Title}}</h1>
 		<p>{{.Description}}</p>
@@ -8,6 +7,7 @@
 </header>
 <hr style="margin: 0 1rem;"/>
 <article>
+	<img src="/knabino-magia/{{.Params.thumbnail}}" alt="Thumbnail" class="thumbnail">
 	{{.Content}}
 </article>
 {{end}}
