@@ -13,7 +13,6 @@ body {
 	background: var(--canva0);
 	color: var(--canva4);
 	font: normal x-large "Trebuchet MS", sans-serif;
-
 }
 
 main {
@@ -142,5 +141,5 @@ article a {
 
 @media screen and (max-width: 1280px) {
 	main {width: auto;}
-	#front-banner {border-radius: 0;}
+	.home__banner {border-radius: 0;}
 }
