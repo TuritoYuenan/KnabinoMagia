@@ -12,7 +12,7 @@ body {
 	min-height: 100vh;
 	background: var(--canva0);
 	color: var(--canva4);
-	font: normal x-large Verdana, sans-serif;
+	font: normal x-large 'Trebuchet MS', sans-serif;
 }
 
 main {
