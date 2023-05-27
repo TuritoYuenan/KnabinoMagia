@@ -1,11 +1,17 @@
-<nav class="topnav">
-	<strong class="topnav__title">
+<nav class="topnav" id="topnavbar">
+
+	<strong class="title">
 		<a href="{{.Site.BaseURL}}">{{.Site.Title}}</a>
 	</strong>
+
 	{{$currentPage := .}}
-	<div class="topnav__menus" style="float: right;">
-	{{range .Site.Menus.main}}
-		<a href="{{.URL}}">{{.Name}}</a>
-	{{end}}
+
+	<div class="menus" style="float: right;">
+
+		{{range .Site.Menus.main}}
+		<a href=".{{.URL}}">{{.Name}}</a>
+		{{end}}
+
 	</div>
+
 </nav>

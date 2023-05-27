@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 :root {
 	/* canva pink sky palette */
 	--canva0: #1a364e; --canva1: #162a40;
@@ -55,18 +57,19 @@ hr {
 /* Navigation Bar */
 
 .topnav {
-	padding: 1em .5em;
+	padding: 1rem 1rem;
 	font-variant: small-caps;
+	overflow: hidden;
 }
 
-.topnav__menus * {
-	margin: auto .5rem;
+.topnav .menus * {
+	margin: .5rem;
 	font-size: large;
 }
 
 /* Banner */
 
-.home__banner {
+#banner {
 	background: url(banner.jpg) center center;
 	background-size: cover;
 	color: var(--canva0);
@@ -74,19 +77,22 @@ hr {
 	border-radius: 1em;
 }
 
-.home__banner h1 {
-	margin: .2em; font-weight: bolder;
+#banner h1 {
+	margin: .2em;
+	font-weight: bolder;
 }
 
-.home__icon {
+#banner .icon {
 	height: 40vh;
 }
 
 /* List Page */
 
 .list {
-	text-align: center; gap: 1em; display: grid;
+	display: grid;
+	gap: 1em;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	text-align: center;
 }
 
 .list__header {
@@ -94,11 +100,11 @@ hr {
 	padding-bottom: 0;
 }
 
-.list__item {
+.list .item {
 	border-radius: 1em;
 }
 
-.list__thumb {
+.list .thumb {
 	width: 100%;
 	height: auto;
 }
@@ -114,7 +120,7 @@ h1, h2, h3 {
 	font-variant: small-caps;
 }
 
-header h1:not(.home__title) {
+header h1:not(#banner h1) {
 	width: max-content;
 	margin: 0;
 	padding: .2em .4em;
@@ -139,7 +145,12 @@ article a {
 
 /* RESPONSIVE-NESS */
 
-@media screen and (max-width: 1280px) {
-	main {width: auto;}
-	.home__banner {border-radius: 0;}
+@media (max-width: 1280px) {
+	main {
+		width: auto;
+	}
+
+	.home__banner {
+		border-radius: 0;
+	}
 }

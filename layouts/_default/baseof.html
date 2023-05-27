@@ -3,14 +3,16 @@
 
 <head>
 	<meta charset="UTF-8">
+
+	<meta name="author" content="{{ .Site.Params.Author }}">
+	<meta name="application-name" content="{{ .Site.Title }}">
+	<meta name="description" content="{{ .Site.Params.Description }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>{{ replace .Name "-" " " | title }} | {{ .Site.Title}}</title>
+	<title>{{ replace .Name "-" " " | title }} | {{ .Site.Title }}</title>
 
-	<link rel="stylesheet" href="/knabino-magia/style.css" />
-
-	<link rel="icon" href="/knabino-magia/favicon.ico">
-	<link rel="icon" href="/knabino-magia/favicon.svg">
+	<link rel="stylesheet" href="./style.css" />
+	<link rel="icon" href="./favicon.svg">
 </head>
 
 <body>

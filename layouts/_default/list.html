@@ -7,8 +7,8 @@
 </article>
 <section class="list">
 	{{range .Pages.ByTitle}}
-	<a class="list__item color_reversal" href="{{.Permalink}}">
-		<img class="list__thumb" src="/knabino-magia/{{.Page.Params.thumbnail}}" alt="Thumbnail" />
+	<a class="item color_reversal" href="{{.Permalink}}">
+		<img class="thumb" src="/knabino-magia/{{.Page.Params.thumbnail}}" alt="Thumbnail" />
 		<h3>{{.Title}}</h3>
 	</a>
 	{{end}}
