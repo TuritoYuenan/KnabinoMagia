@@ -1,13 +1,14 @@
 {{define "main"}}
-<header style="display: flex; gap: 1rem;">
-	<div>
-		<h1>{{.Title}}</h1>
-		<p>{{.Description}}</p>
-	</div>
+
+<header>
+	<h1>{{.Title}}</h1>
+	<p>{{.Description}}</p>
 </header>
-<hr style="margin: 0 1rem;"/>
+
+<hr/>
+
 <article>
-	<img src="/knabino-magia/{{.Params.thumbnail}}" alt="Thumbnail" class="thumbnail">
 	{{.Content}}
 </article>
+
 {{end}}

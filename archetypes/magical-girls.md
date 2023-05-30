@@ -3,7 +3,7 @@ title: {{ replace .Name "-" " " | title }}
 description: 
 date: {{ .Date }}
 draft: true
-thumbnail: thumbnails/thumb_0.jpg
+thumbnail: thumbnails/placeholder.jpg
 ---
 
 (https://deviantart.com/tobecomeagriefseed/art/Madoka-Magica-OC-Template-523989826)
