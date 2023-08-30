@@ -1,9 +1,13 @@
+{{define "head"}}
+	<link rel="stylesheet" href="{{.Site.BaseURL}}styles/homepage.css">
+{{end}}
+
 {{define "main"}}
-<header id="banner">
-	<img class="icon" src="{{.Site.BaseURL}}icon.svg" alt="icon">
+<section id="banner">
+	<img src="{{.Site.BaseURL}}icon.svg" alt="icon" class="icon" width="50" height="70">
 	<h1 class="title">{{.Site.Title}}</h1>
-	<h4>by {{.Site.Params.Author}}</h4>
-</header>
+	<p class="subtitle">by {{.Site.Params.Author}}</p>
+</section>
 <article>
 	{{.Content}}
 </article>

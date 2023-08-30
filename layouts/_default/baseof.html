@@ -4,23 +4,27 @@
 <head>
 	<meta charset="UTF-8">
 
+	<title>{{ .Title }} | {{ .Site.Title }}</title>
+
 	<meta name="author" content="{{ .Site.Params.Author }}">
 	<meta name="application-name" content="{{ .Site.Title }}">
 	<meta name="description" content="{{ .Site.Params.Description }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<title>{{ replace .Name "-" " " | title }} | {{ .Site.Title }}</title>
+	<link rel="stylesheet" href="{{ .Site.BaseURL }}style.css">
+	<link rel="icon" href="{{ .Site.BaseURL }}favicon.svg">
 
-	<link rel="stylesheet" href="{{ .Site.BaseURL }}/style.css">
-	<link rel="icon" href="{{ .Site.BaseURL }}/favicon.svg">
+	{{- block "head" . }}{{- end }}
 </head>
 
 <body>
-	<main>
+	<div style="display: contents;">
 		{{- partial "nav.html" . -}}
-		{{- block "main" . }}{{- end }}
+		<main>
+			{{- block "main" . }}{{- end }}
+		</main>
 		{{- partial "footer.html" . -}}
-	</main>
+	</div>
 </body>
 
 </html>

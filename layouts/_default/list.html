@@ -1,14 +1,18 @@
+{{define "head"}}
+<link rel="stylesheet" href="{{.Site.BaseURL}}styles/listpage.css">
+{{end}}
+
 {{define "main"}}
-<header class="list__header">
+<header id="list-header">
 	<h1>{{replace .Name "-" " " | title}}</h1>
 </header>
 <article>
 	{{.Content}}
 </article>
-<section class="list">
+<section id="list">
 	{{range .Pages.ByTitle}}
-	<a class="item color_reversal" href="{{.Permalink}}">
-		<img class="thumb" src="/knabino-magia/{{.Page.Params.thumbnail}}" alt="Thumbnail" />
+	<a class="item" href="{{.Permalink}}">
+		<img class="thumb" src="/knabino-magia/{{.Page.Params.thumbnail}}" alt="{{.Page.Title}} thumbnail" />
 		<h3>{{.Title}}</h3>
 	</a>
 	{{end}}
