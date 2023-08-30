@@ -1,20 +1,29 @@
-* {box-sizing: border-box;}
+* {
+	box-sizing: border-box;
+}
 
 :root {
-	/* canva pink sky palette */
-	--canva0: #1a364e; --canva1: #162a40;
-	--canva2: #a35c6e; --canva3: #cb808b;
-	--canva4: #e9abb1;
+	/* Canva's Pink Sky color palette */
+	--canva0: hsl(208, 50%, 20%);
+	--canva1: hsl(211, 49%, 17%);
+	--canva2: hsl(345, 28%, 50%);
+	--canva3: hsl(351, 42%, 65%);
+	--canva4: hsl(354, 58%, 79%);
+
+	/* Text color based on canva4 to improve contrast */
+	--text: hsl(354, 58%, 82%);
+
+	/* Global design settings */
+	background: var(--canva0);
+	color: var(--text);
+	font-size: large;
+	font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
 /* BUILDING BLOCKS */
 
 body {
 	margin: 0;
-	min-height: 100vh;
-	background: var(--canva0);
-	color: var(--canva4);
-	font: normal x-large 'Trebuchet MS', sans-serif;
 }
 
 main {
@@ -22,21 +31,31 @@ main {
 	width: 1280px;
 }
 
-header, article, footer, section {
-	padding: 1rem
+header,
+article,
+footer,
+section {
+	padding: 1rem;
 }
 
 footer {
-	font-size: medium;
+	background: var(--canva1);
+	text-align: center;
+}
+
+article {
+	width: clamp(45ch, 75%, 75ch);
+	margin: auto;
 }
 
 blockquote {
-	margin: 1em 0;
-	padding: .5em 1em;
-	border-radius: 1em;
+	margin: 1rem 0;
+	padding: 0.5rem 1rem;
+	border-radius: 1rem;
 }
 
-table, pre {
+table,
+pre {
 	padding: 1rem;
 	border-radius: 1rem;
 }
@@ -108,27 +127,22 @@ section.list .thumb {
 
 /* TEXT */
 
-h1, h2, h3, h4, h5, h6, p, ul, ol {
-	margin: .5em 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+	margin: 0.5em 0;
 }
 
-h1, h2, h3 {
-	border-radius: .2em;
+h1,
+h2,
+h3 {
 	font-variant: small-caps;
-}
-
-header h1:not(#banner h1) {
-	width: max-content;
-	margin: 0;
-	padding: .2em .4em;
-	background: var(--canva4);
-	color: var(--canva0);
-	border-radius: .5em;
-}
-
-header h1:not(#banner h1)::selection {
-	background: var(--canva0);
-	color: var(--canva4);
 }
 
 a {
@@ -139,14 +153,14 @@ a {
 
 a:hover {
 	color: var(--canva3);
-	transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-article a {
+article a:hover {
 	text-decoration: underline;
 }
 
-::selection, blockquote {
+::selection,
+blockquote {
 	background: var(--canva4);
 	color: var(--canva0);
 }
