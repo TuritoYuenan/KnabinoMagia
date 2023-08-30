@@ -8,12 +8,12 @@ params:
 
 menu:
   main:
-    - name: Magical Girls
+    - name: Magical girls
       url: /magical-girls/
-      weight: 1
+      weight: 550
     - name: Countries
       url: /countries/
-      weight: 2
-    - name: Story
-      url: /story/
-      weight: 3
+      weight: 456
+    - name: Extras
+      url: /extras/
+      weight: 789
