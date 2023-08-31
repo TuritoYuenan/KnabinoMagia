@@ -1,0 +1,65 @@
+[
+  {
+    "code": "le",
+    "short_form": "Baltic Union",
+    "long_form": "Union of the Baltics",
+    "capital": "Riga",
+    "description": "Union of 3 Baltic states"
+  },
+  {
+    "code": "kd",
+    "short_form": "Kurdistan",
+    "long_form": "Republic of Kurdistan",
+    "capital": "Shingal",
+    "description": "New homeland of Kurds, post-2014"
+  },
+  {
+    "code": "jp",
+    "short_form": "Magical Japan",
+    "long_form": "Magical State of Japan",
+    "capital": "Neoedo",
+    "description": "Drastic version of Japan, with magic"
+  },
+  {
+    "code": "vn",
+    "short_form": "Magical Vietnam",
+    "long_form": "Magical State of Vietnam",
+    "capital": "Kinh Dương",
+    "description": "Vietnam with magical stuffs"
+  },
+  {
+    "code": "il",
+    "short_form": "New Israel",
+    "long_form": "State of New Israel",
+    "capital": "Birosalem",
+    "description": "Russia gave the Jews some lands"
+  },
+  {
+    "code": "mq",
+    "short_form": "Mashriq Arabia",
+    "long_form": "Mashriq Arab Union",
+    "capital": "Amman",
+    "description": "A union of the Levant Arabic states"
+  },
+  {
+    "code": "nz",
+    "short_form": "Awteros",
+    "long_form": "Republic of Awteros",
+    "capital": "Wellington",
+    "description": "New Zealand with Maori domination"
+  },
+  {
+    "code": "yu",
+    "short_form": "Nadoslavia",
+    "long_form": "Aerial Nation of Nadoslavia",
+    "capital": "Zrakoplov",
+    "description": "Flying country, Yugoslavia successor"
+  },
+  {
+    "code": "hm",
+    "short_form": "Homura village",
+    "long_form": "Village of the Homuras",
+    "capital": "Central Inn",
+    "description": "The Inn from Homura Tamura"
+  }
+]

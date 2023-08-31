@@ -1,0 +1,47 @@
+[
+  {
+    "chapter": 1,
+    "name": "Her New Country",
+    "location": "Kurdistan"
+  },
+  {
+    "chapter": 2,
+    "name": "War That's Not Yours",
+    "location": "Ukraine/Russia/Greece"
+  },
+  {
+    "chapter": 3,
+    "name": "Western Business",
+    "location": "France/UK/Germany"
+  },
+  {
+    "chapter": 4,
+    "name": "Cyber War",
+    "location": "Singapore/India"
+  },
+  {
+    "chapter": 5,
+    "name": "Marine Offensive",
+    "location": "Indochina/China/Philippines"
+  },
+  {
+    "chapter": 6,
+    "name": "Natalie's Revenge",
+    "location": "Ukraine/Russia/New Israel"
+  },
+  {
+    "chapter": 7,
+    "name": "Village of Homura",
+    "location": "Homura's village"
+  },
+  {
+    "chapter": 8,
+    "name": "American Wilderness",
+    "location": "United States"
+  },
+  {
+    "chapter": 9,
+    "name": "The Flying Country",
+    "location": "Nadoslavia"
+  }
+]
