@@ -1,0 +1,99 @@
+{
+	"$schema": "https://frontmatter.codes/frontmatter.schema.json",
+	"frontMatter.content.pageFolders": [
+		{
+			"path": "[[workspace]]/content/countries",
+			"title": "Countries"
+		},
+		{
+			"path": "[[workspace]]/content/extras",
+			"title": "Extra details"
+		},
+		{
+			"path": "[[workspace]]/content/magical-girls",
+			"title": "Magical girls"
+		}
+	],
+	"frontMatter.data.files": [
+		{
+			"id": "countries",
+			"title": "Countries",
+			"file": "[[workspace]]/data/countries.json",
+			"schema": {
+				"title": "Countries",
+				"type": "object",
+				"properties": {
+					"code": {
+						"title": "Country Code",
+						"type": "string"
+					},
+					"short_form": {
+						"title": "Short form Name",
+						"type": "string"
+					},
+					"long_form": {
+						"title": "Long form Name",
+						"type": "string"
+					},
+					"capital": {
+						"title": "Capital city",
+						"type": "string"
+					},
+					"description": {
+						"title": "Description",
+						"type": "string"
+					}
+				}
+			}
+		}
+	],
+	"frontMatter.content.publicFolder": "static",
+	"frontMatter.framework.id": "hugo",
+	"frontMatter.preview.host": "http://localhost:1313/KnabinoMagia",
+	"frontMatter.taxonomy.contentTypes": [
+		{
+			"name": "default",
+			"fields": [
+				{
+					"name": "title",
+					"title": "Title",
+					"type": "string"
+				},
+				{
+					"name": "description",
+					"title": "Description",
+					"type": "string"
+				},
+				{
+					"default": "{{now}}",
+					"name": "date",
+					"title": "Publishing date",
+					"type": "datetime",
+					"isPublishDate": true
+				},
+				{
+					"name": "thumbnail",
+					"title": "Content preview",
+					"type": "image"
+				},
+				{
+					"name": "draft",
+					"title": "Is in draft",
+					"type": "draft"
+				},
+				{
+					"name": "tags",
+					"title": "Tags",
+					"type": "tags"
+				},
+				{
+					"name": "categories",
+					"title": "Categories",
+					"type": "categories"
+				}
+			],
+			"pageBundle": false,
+			"previewPath": null
+		}
+	]
+}
