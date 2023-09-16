@@ -1,6 +1,9 @@
 ---
-title: Countries
-description: 
-date: 2023-04-04T21:58:50+07:00
-draft: true
+title: 🌐 List of Countries
+description: Countries in Knabino Magia
+date: 2023-08-31T16:40:00+07:00
+draft: false
+thumbnail: /thumbnails/listCountries.png
 ---
+
+These are the countries created or alternated in the fiction.
